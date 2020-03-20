@@ -8,6 +8,7 @@ import 'package:CoronaWashNews/News.dart';
 import 'package:CoronaWashNews/Api.dart';
 
 import 'package:url_launcher/url_launcher.dart';
+import 'package:devicelocale/devicelocale.dart';
 
 //import 'package:CoronaWashNews/main.dart';
 
@@ -50,16 +51,27 @@ class MyCoronaNewsWidget extends StatefulWidget {
 
 class _MyCoronaNewsWidgetState extends State<MyCoronaNewsWidget> {
   var _news = new List<News>();
+  var _localLang  = "global";
+  String _deviceLang = "";
 
   Future<String> _getNews() async {
-    API.getNews().then((response) {
-      setState(() {
-        Iterable list = json.decode(response.body);
-        _news = list.map((model) => News.fromJson(model)).toList();
+    try {
+      API.getNews(_localLang).then((response) {
+        setState(() {
+          Iterable list = json.decode(response.body);
+          _news = list.map((model) => News.fromJson(model)).toList();
+        });
+        //return 'success';
       });
+    } catch (e){
+      //print(e);
+      _showDialog("ooops", "Data Missing ("+_localLang+"), sorry!\nTry it later again!");
+      setState( () {
+        _news.clear();
+      });
+    } finally {
       return 'success';
-    });
-    return 'success';
+    }
   }
 
   _clickedNews(int newsid) {
@@ -67,13 +79,42 @@ class _MyCoronaNewsWidgetState extends State<MyCoronaNewsWidget> {
       launch(news.link);
   }
 
+  void _showDialog(String title, String text) {
+    // flutter defined function
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        // return object of type Dialog
+        return AlertDialog(
+          title: new Text(title),
+          content: new Text(text),
+          actions: <Widget>[
+            // usually buttons at the bottom of the dialog
+            new FlatButton(
+              child: new Text("OK"),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   @override
   void initState() {
     super.initState();
-    setState(() {
-      _getNews();
-    });
+    initPlatformState();
     WidgetsBinding.instance.addPostFrameCallback((_) => _refreshIndicatorKey.currentState.show());
+  }
+
+  void initPlatformState() async {
+    String locale = await Devicelocale.currentLocale;
+    setState(() {
+      _deviceLang = locale;
+      _localLang = locale.replaceAll("en_EN", "en").replaceAll("de_DE", "de").replaceAll("en_US", "global").replaceAll("es_ES", "global");
+    });
   }
 
   @override
@@ -90,12 +131,12 @@ class _MyCoronaNewsWidgetState extends State<MyCoronaNewsWidget> {
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
-    /*      actions: [
+          actions: [
             IconButton (
                 icon: new Image.asset('icons/flags/png/gb.png', package: 'country_icons'),
                 onPressed: () {
                   setState(() {
-                    _localLanguage = "gb";
+                    _localLang = "en";
                     _getNews();
                   });
                 }
@@ -104,13 +145,21 @@ class _MyCoronaNewsWidgetState extends State<MyCoronaNewsWidget> {
                 icon: new Image.asset('icons/flags/png/de.png', package: 'country_icons'),
                 onPressed: () {
                   setState(() {
-                    _localLanguage = "de";
+                    _localLang="de";
                     _getNews();
-
                   });
                 }
             ),
-          ]*/
+            IconButton (
+                icon: new Image.asset('icons/flags/png/aq.png', package: 'country_icons'),
+                onPressed: () {
+                  setState(() {
+                    _localLang="global";
+                    _getNews();
+                  });
+                }
+            ),
+          ]
       ),
       body: RefreshIndicator(
           key: _refreshIndicatorKey,
@@ -136,37 +185,3 @@ class _MyCoronaNewsWidgetState extends State<MyCoronaNewsWidget> {
     );
   }
 }
-
-/*
-            FutureBuilder<Album>(
-              future: futureAlbum,
-              builder: (context, snapshot) {
-                if (snapshot.hasData) {
-                  return Column (
-                    children: [
-                      Text(snapshot.data.toString()),
-                      Text(snapshot.data.title),
-                      Text("hi"),
-                    ],
-                  );
-                } else if (snapshot.hasError) {
-                  return Text("${snapshot.error}");
-                }
-
-                // By default, show a loading spinner.
-                return CircularProgressIndicator();
-              },
-            ),
-
-                        RaisedButton (
-              textColor: Colors.white,
-              color: Colors.grey,
-              child: Text("Corona News"),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                    MaterialPageRoute(builder: (BuildContext context) { return MyHomePage(title: 'hiu'); })
-                );
-              },
-            ),
- */

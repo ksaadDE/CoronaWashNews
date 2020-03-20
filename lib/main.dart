@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "Just a few Seconds left!",
     "Don't worry!",
     "Don't forget the Finger tips & nails",
-    "Don't forget between the hands and the first half of the forearm",
+    "Don't forget between the Fingers and the Forearm",
   ];
 
   void switchCountDown(){
@@ -114,6 +114,12 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
@@ -123,7 +129,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // than having to individually change instances of widgets.
 
     setState(() {
-      if(_message.length == 0)_message = "Press the Button to start the Timer!";
+      if(_message.length == 0)_message = "Press Button to start the Timer!";
     });
 
 
