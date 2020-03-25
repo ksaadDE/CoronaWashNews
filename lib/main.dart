@@ -1,8 +1,9 @@
 import 'dart:async';
+import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:CoronaWashNews/CoronaNews.dart';
-import 'dart:math';
+import 'package:url_launcher/url_launcher.dart';
 
 var rndNumber = new Random();
 void main() => runApp(MyApp());
@@ -24,8 +25,7 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
       ),
-      home: MyHomePage(title: 'Wash your Hands, Bitch!'),
-      //home: MyTestWidget(title: 'Wash your Hands, Bitch!'),
+      home: MyHomePage(title: 'Wash your Hands!'),
     );
   }
 }
@@ -155,6 +155,35 @@ class _MyHomePageState extends State<MyHomePage> {
                   );
                 }
             ),
+            IconButton (
+              icon: Icon(Icons.info, color: Colors.blue),
+              onPressed: () {
+                showDialog(
+                  context: context,
+                  builder: (BuildContext context) {
+                    // return object of type Dialog
+                    return AlertDialog(
+                      title: new Text("Informationen"),
+                      content: new Text("Diese App wurde von Karim Saad entwickelt.\nDas Logo wurde von Tom Asmus designt.\nFlaggen und die Informationen von anderen Quellen obliegen dem Urheberrecht der jeweiligen Quellen.\nWir übernehmen keine Haftung für Richtigkeit oder Aktualität der jeweiligen Informationen\nDiese App wurde zur Bekämpfung der Corona-Krise ins Leben gerufen. Sie erfüllt keine kommerziellen Zwecke.\n\nWeitere Informationen, wenn vorhanden, auf https://saad-it.de"),
+                      actions: <Widget>[
+                        // usually buttons at the bottom of the dialog
+                        new FlatButton(
+                          child: new Text("SAAD-IT"),
+                          onPressed: () {
+                            launch("https://saad-it.de");
+                          },
+                        ), new FlatButton(
+                          child: new Text("OK"),
+                          onPressed: () {
+                            Navigator.of(context).pop();
+                          },
+                        ),
+                      ],
+                    );
+                  },
+                );
+              }
+            )
           ]
       ),
       body: Center(
