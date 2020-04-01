@@ -20,5 +20,6 @@ class API {
       print(e);
       return null;
     }
+    // Either the permission was already granted before or the user just granted it.
   }
 }
