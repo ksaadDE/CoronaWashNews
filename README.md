@@ -14,19 +14,23 @@ Also you have linked in the App the News from offical sources, so no Fake News. 
 
 # Important Notice & Legal Stuff
 ### Allowed
-*sharing, building, cloneing, bug fixing, contribution  (small changes, without hitting "not allowed points")
+* sharing
+* building / recompiling
+* small modifications in peaceful manner (and not breaking the terms below)
+* fixing of security issues / bug fixes
+* Helping others
 
 If your changes hitting the points below in a peaceful way, please feel free to contact us. A written approval for specific usages is possible.
 
 ### Not allowed:
-*Fake News
-*Wrong contributions
-*Making money out of it (in anyway or any ressources)
-*Exchanging the names of the authors (in any way)
-*Using it for not inteded usage 
-*Malware
-*Exploitment or Treatment of the user or his/her device(s)
-*Claiming that we are officals
+* Fake News
+* wrong contributions
+* Making money out of it (in anyway or any ressources)
+* Exchanging the names of the authors (in any way)
+* Using it for not inteded usage 
+* Malware
+* Exploitment or Treatment of the user or his/her device(s)
+* Claiming that we are officals
 
 ### Copyright & Reminder self-care
 
