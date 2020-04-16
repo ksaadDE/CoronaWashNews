@@ -9,6 +9,7 @@ Also you have linked in the App the News from offical sources, so no Fake News. 
 
 # Release
 [All Binaries](https://github.com/ksaadDE/CoronaWashNews/releases/)
+
 [1.0 APK Direct Link](https://github.com/ksaadDE/CoronaWashNews/releases/download/cwn_android_1.0/app-release.apk)
 
 # Important Notice & Legal Stuff
