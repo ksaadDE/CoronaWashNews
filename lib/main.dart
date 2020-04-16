@@ -65,9 +65,11 @@ class _MyHomePageState extends State<MyHomePage> {
     "Go!",
     "More!!",
     "Just a few Seconds left!",
-    "Don't worry!",
-    "Don't forget the Finger tips & nails",
-    "Don't forget between the Fingers and the Forearm",
+    "Don't worry! Your Hands will be clean in a few Seconds",
+    "Don't forget the Finger Tips",
+    "Don't forget between the Fingers and the Wrist",
+    "What do you want to do after you're finished?",
+    "Clean Hands are sooo nice!",
   ];
 
   void switchCountDown(){
