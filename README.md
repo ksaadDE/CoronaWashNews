@@ -3,7 +3,7 @@ Stay informed and wash your hands well while Covid19 goes around!
 
 It's very important to keep your hands clean, that's why we've published this app.
 
-The App implements a counter (about 30 seconds) while you wash your hands. So you can see how long you washed your hands - that's really useful in times where we have to stop the spread of the Virus.
+The App implements a counter (about 60 seconds) while you wash your hands. So you can see how long you washed your hands - that's really useful in times where we have to stop the spread of the Virus.
 
 Also you have linked in the App the News from offical sources, so no Fake News. We host them in Pastebins as JSON Format - it's no secret that we have manually implement it on that way, without a large Database.
 
@@ -15,7 +15,7 @@ Also you have linked in the App the News from offical sources, so no Fake News. 
 # Important Notice & Legal Stuff
 ### Allowed
 * sharing
-* building / recompiling
+* building / recompiling (especially compiling it for iOS)
 * small modifications in peaceful manner (and not breaking the terms below)
 * fixing of security issues / bug fixes
 * Helping others
@@ -41,3 +41,6 @@ Logo created by Focused (Tom Asmus) - All rights reserved!
 Flags and Packages from others and their rights remaining untouched! 
 
 Keep in Mind this App is not powered by any offical Institution or State. If you have health issues consider going to a doctor / medical experts. You use the app on your own risk.
+
+# Known issues
+We know that if the timer is about 60 seconds and the DisplayTime of your Screen is less than one Minute the Screen just powers off ("closes it"). You can workaround by adjusting the setting on Android.
