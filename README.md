@@ -24,6 +24,8 @@ If your changes hitting the points below in a peaceful way, please feel free to 
 *Making money out of it (in anyway or any ressources)
 *Exchanging the names of the authors (in any way)
 *Using it for not inteded usage 
+*Malware
+*Exploitment or Treatment of the user or his/her device(s)
 *Claiming that we are officals
 
 ### Copyright & Reminder self-care
