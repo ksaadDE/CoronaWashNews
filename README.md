@@ -21,7 +21,7 @@ Also you have linked in the App the News from offical sources, so no Fake News. 
 * Helping others
 * Giving it a nicer Design than we did
 
-If your changes hitting the points below in a peaceful way, please feel free to contact us. A written approval for specific usages is possible.
+If your changes breaking the (not allowed) points below in a peaceful way, please feel free to contact us. A written approval for specific usages is possible.
 
 ### Not allowed:
 * Fake News
