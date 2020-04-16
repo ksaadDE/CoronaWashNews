@@ -19,6 +19,7 @@ Also you have linked in the App the News from offical sources, so no Fake News. 
 * small modifications in peaceful manner (and not breaking the terms below)
 * fixing of security issues / bug fixes
 * Helping others
+* Giving it a nicer Design than we did
 
 If your changes hitting the points below in a peaceful way, please feel free to contact us. A written approval for specific usages is possible.
 
