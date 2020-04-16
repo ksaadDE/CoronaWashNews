@@ -7,10 +7,10 @@ The App implements a counter (about 30 seconds) while you wash your hands. So yo
 
 Also you have linked in the App the News from offical sources, so no Fake News. We host them in Pastebins as JSON Format - it's no secret that we have manually implement it on that way, without a large Database.
 
-# Release
+# Release & Downloads
 [All Binaries](https://github.com/ksaadDE/CoronaWashNews/releases/)
 
-[1.0 APK Direct Link](https://github.com/ksaadDE/CoronaWashNews/releases/download/cwn_android_1.0/app-release.apk)
+[1.0 Android APK Direct Download Link](https://github.com/ksaadDE/CoronaWashNews/releases/download/cwn_android_1.0/app-release.apk)
 
 # Important Notice & Legal Stuff
 ### Allowed
