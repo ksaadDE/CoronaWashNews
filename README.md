@@ -8,7 +8,16 @@ The App implements a counter (about 30 seconds) while you wash your hands. So yo
 Also you have linked in the App the News from offical sources, so no Fake News. We host them in Pastebins as JSON Format - it's no secret that we have manually implement it on that way, without a large Database.
 
 # Copyright & Legal Stuff
+####Allowed
+It's allowed to share, clone, rebuild etc.  
+
+####Not allowed:
+Spread Fake News, exchange the authors of the app, faking the App, using the Logo without permission, using it for commercial use (except for informational usage)
+
 Written by Karim Saad - All rights reserved
+
 Logo created by Focused (Tom Asmus) - All rights reserved!
+
 Flags and Packages from others and their rights remaining untouched! 
+
 Keep in Mind this App is not powered by any offical Institution or State. If you have health issues consider going to a doctor / medical experts. You use the app on your own risk.
