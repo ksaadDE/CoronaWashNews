@@ -7,8 +7,8 @@ Stay informed and wash your hands well while Covid19 goes around!
 [1.0 Android APK Direct Download Link](https://github.com/ksaadDE/CoronaWashNews/releases/download/cwn_android_1.0/app-release.apk)
 
 # Screenshots
-![Read more words!](https://i.ibb.co/CmhHcZ6/image.png){:height="24px" width="48px"}
-![Read more words!](https://i.ibb.co/DKJJT9S/image.png){:height="24px" width="48px"}
+![Read more words!](https://i.ibb.co/CmhHcZ6/image.png)
+![Read more words!](https://i.ibb.co/DKJJT9S/image.png)
 
 # Important Notice & Legal Stuff
 ### Allowed
