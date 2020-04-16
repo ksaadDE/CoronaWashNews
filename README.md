@@ -14,13 +14,17 @@ Also you have linked in the App the News from offical sources, so no Fake News. 
 
 # Important Notice & Legal Stuff
 ### Allowed
-It's allowed to share, clone, rebuild etc.   
-Also small performance improvements are allowed.
-Contributing is also allowed as far it doesn't hit the "not allowed" points below. 
-If your changes hitting the points below in a peaceful way, please feel free to contact us.
+*sharing, building, cloneing, bug fixing, contribution  (small changes, without hitting "not allowed points")
+
+If your changes hitting the points below in a peaceful way, please feel free to contact us. A written approval for specific usages is possible.
 
 ### Not allowed:
-Spread Fake News, exchange the authors of the app, faking the App, using the Logo without permission, making money (or other currencies / ressources) out of it in any way
+*Fake News
+*Wrong contributions
+*Making money out of it (in anyway or any ressources)
+*Exchanging the names of the authors (in any way)
+*Using it for not inteded usage 
+*Claiming that we are officals
 
 ### Copyright & Reminder self-care
 
