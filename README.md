@@ -1,16 +1,14 @@
 # CoronaWashNews
 Stay informed and wash your hands well while Covid19 goes around!
 
-It's very important to keep your hands clean, that's why we've published this app.
-
-The App implements a counter (about 60 seconds) while you wash your hands. So you can see how long you washed your hands - that's really useful in times where we have to stop the spread of the Virus.
-
-Also you have linked in the App the News from offical sources, so no Fake News. We host them in Pastebins as JSON Format - it's no secret that we have manually implement it on that way, without a large Database.
-
 # Release & Downloads
 [All Binaries](https://github.com/ksaadDE/CoronaWashNews/releases/)
 
 [1.0 Android APK Direct Download Link](https://github.com/ksaadDE/CoronaWashNews/releases/download/cwn_android_1.0/app-release.apk)
+
+# Screenshots
+![Read more words!](https://i.ibb.co/CmhHcZ6/image.png)
+![Read more words!](https://i.ibb.co/DKJJT9S/image.png)
 
 # Important Notice & Legal Stuff
 ### Allowed
