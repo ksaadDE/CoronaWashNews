@@ -9,7 +9,10 @@ Also you have linked in the App the News from offical sources, so no Fake News. 
 
 # Important Notice & Legal Stuff
 ### Allowed
-It's allowed to share, clone, rebuild etc.  
+It's allowed to share, clone, rebuild etc.   
+Also small performance improvments for personal use is allowed.
+Contributing is also allowed as far it doesn't hit the "not allowed" points below. 
+If your changes hitting the points below in a peaceful way, please feel free to contact us.
 
 ### Not allowed:
 Spread Fake News, exchange the authors of the app, faking the App, using the Logo without permission, using it for commercial use (except for informational usage)
