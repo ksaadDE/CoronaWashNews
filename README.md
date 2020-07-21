@@ -35,7 +35,7 @@ If your changes breaking the (not allowed) points below in a peaceful way, pleas
 
 Written by Karim Saad - All rights reserved
 
-Logo created by @mrfocused - All rights reserved!
+Logo created by @mrfocused  - All rights reserved!
 
 Flags and Packages from others and their rights remaining untouched! 
 
