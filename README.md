@@ -28,7 +28,7 @@ If your intended use is probably violating the "not allowed"-List below, please 
 - Logo by @mrfocuse
 - Rights of others, like for the flags, remaining untouched!
 
-Keep in mind: this App is not run by any government. If you have health issues consider going to a doctor or other medical experts, who are professionials in the field you seek advise about. You are using the app on your own risk.
+Keep in mind: this App is not run by any government. If you have health issues consider going to a doctor or other medical experts, who are professionials in the field you seek advice about. You are using the app on your own risk.
 
 # Known issues
 - On Android: if the timer is about 60 seconds and the DisplayTime of your screen is less than one minute, the screen just locks or powers off ("closes it") 
